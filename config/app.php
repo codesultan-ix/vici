@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Pallares\LaravelNuxt\LaravelNuxtServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -230,5 +230,6 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    
 
 ];
